@@ -7,6 +7,12 @@ For the implementation, I used Pandas for data manipulation, NumPy for numerical
 
 Overall, the project successfully highlighted key differences between the two algorithms, though K-Medoids required more time and computational power to run effectively on larger datasets.
 
+The dataset used in this project can be downloaded from Kaggle at the following link:
+[Sports Car Prices Dataset
+](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset?resource=download)
+Once downloaded, place the cars.csv file in a data folder within the project directory to run the code successfully.
+
+
 
 
 
