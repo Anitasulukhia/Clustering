@@ -1,8 +1,15 @@
 # Clustering
-This project focuses on implementing the K-Means and K-Medoids clustering algorithms from scratch to analyze and cluster a dataset of sports cars. The dataset contains various attributes such as speed, acceleration, engine size, horsepower, torque, and other performance characteristics.
-The purpose of this project is to explore clustering techniques by applying both K-Means and K-Medoids to real-world data. The goal is to group the cars based on their performance metrics and compare the results from both algorithms to understand their strengths and weaknesses in handling this type of data.
-After implementing both algorithms, the clusters were analyzed and compared. The comparison focused on:
-The quality of clustering based on metrics such as within-cluster variance.
-Sensitivity to outliers and noise in the data.
-Computational efficiency and performance differences.
-This project provided insights into the differences between K-Means and K-Medoids, particularly in how they handle real-world data with potential outliers. K-Means was more efficient but more sensitive to outliers, while K-Medoids produced more stable clusters, albeit at a higher computational cost.
+This project involves implementing the K-Means and K-Medoids clustering algorithms from scratch to analyze a dataset of sports cars, focusing on attributes like horsepower, acceleration, and engine size. The purpose was to explore clustering methods on real-world data, compare the results, and understand the strengths and weaknesses of both approaches.
+
+Through this project, I learned how to preprocess data, visualize clusters, and evaluate the results using metrics such as Silhouette Score and Davies-Bouldin Index. K-Means proved to be more efficient but sensitive to outliers, while K-Medoids offered more stable results at the cost of higher computational demands.
+
+For the implementation, I used Pandas for data manipulation, NumPy for numerical operations, Matplotlib for visualizing the clusters, and Scikit-learn to evaluate the results.
+
+Overall, the project successfully highlighted key differences between the two algorithms, though K-Medoids required more time and computational power to run effectively on larger datasets.
+
+
+
+
+
+
+
